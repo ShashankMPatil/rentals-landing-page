@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rentals</title>
+</head>
+<body>
+<!----------navbar-------------->
+    <nav class="navbar navbar-expand-sm  mynavbar fixed-top">
+        <a href="index.html" class="navbar-brand mr-4"><img src="./img/Rentals_logo.png" width="150px" alt=""></a>
+
+        <button class="navbar-toggler">
+            <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#mynavbar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link" >Home</a></li>
+            
+                <li class="nav-item dropdown"><a href="rentals.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Rentals</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="">Homes</a></li>
+                        <li><a class="dropdown-item" href="#">Rooms</a></li>
+                        <li><a class="dropdown-item" href="#">Villa</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"><a href="" class="nav-link" >About Us</a></li>
+                <li class="nav-item"><a href="" class="nav-link" >Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!-------------header----------------------->
+<section class="bg-dark text-light p-5 header-section">
+    <div class="container-fluid">
+        <div class="d-lg-flex ">
+                <img src="./img/header.jpg" class="image-fluid w-50 mr-5" alt="">
+            <div class="header-text mt-5">
+                <h1 class="text-light">Your rental needs, <span class="spancolor">simplified</span></h1>
+                <p class="lead">Rent homes, rooms, villas and much more Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam cupiditate neque quos rerum atque distinctio magni porro tempore eius!</p>
+                <div class="d-flex text-start header-subdiv">
+                    <div class="col-3 header-subdiv">
+                        <h4>9K<span class="spancolor">+</span></h4>
+                        <p class="header-subtext">Premium Properties</p>
+                    </div>
+                    <div class="col-3 header-subdiv">
+                        <h4>5K<span class="spancolor">+</span></h4>
+                        <p class="header-subtext">Happy customers</p>
+                    </div>
+                    <div class="col-3 header-subdiv">
+                        <h4>20<span class="spancolor">+</span></h4>
+                        <p class="header-subtext">Cities</p>
+                    </div>
+                </div>
+                <button class="btn header-button">Explore</button>
+            </div> 
+        </div>  
+    </div>
+</section>
+
+<!-----------------different section----------->
+
+<section class="exploring">
+    <h1 class="text-center mb-5">Broad Categories</h1>
+    <div class="container-fluid d-sm-flex explore-container">
+        <div class=" text-light col-3 text-center m-5">
+            <a href=""><img src="./img/home.jpg" class="w-100 image-fluid"alt=""></a>
+            <h2>Homes</h2>
+        </div>
+        <div class="text-light col-3 text-center m-5">
+            <a href=""><img src="./img/room.jpg" class="w-100" alt=""></a>
+            <h2>Rooms</h2>
+        </div>
+        <div class="text-light col-3 text-center m-5">
+            <a href=""><img src="./img/villa.jpg" class="w-100" alt=""></a>
+            <h2>Villas</h2>
+        </div>
+    </div>
+</section>
+
+
+<section class="bg-light rental-section">
+    <div class="container">
+        <div class="d-lg-flex my-5">
+            <div class="col-lg-5">
+                <h1 class="m-3">Recommended</h1>
+                <button class="btn header-button col-3 m-1 rounded-pill">Modern</button>
+                <button class="btn header-button col-2 m-1  rounded-pill">Flat</button>
+                <button class="btn header-button col-2 m-1  rounded-pill">Villa</button>
+                <button class="btn header-button col-3 m-1  rounded-pill">Luxury</button>
+                <button class="btn header-button col-4 m-1  rounded-pill">Independent</button>
+            </div>
+            <div class="col filter-box rounded">
+                <div>
+                    <h4 class="m-3"><img src="img/filter.svg" alt="" > Filter</h4>
+                      <div class="form-group row justify-content-center">
+                        <input type="Search" placeholder="Search Property" class="form-control col-9 rounded-pill ">
+                        <button class="btn header-button col-2 ml-3">Search</button>
+                      </div>
+
+                      <div class="d-flex ml-2">
+                        <div class="form-group">
+                            <label for="" class="col-form-label ml-1">Location</label>
+                            <input type="text" class="rounded-pill  form-control col-11 mr-4" >
+                          </div>
+                        <div class="form-group">
+                            <label for="#location" class="col-form-label ml-1">Type</label>
+                            <input type="text" class="rounded-pill  form-control col-11 mr-4">
+                          </div>
+                        <div class="form-group">
+                            <label for="" class="col-form-label ml-1">Price range</label>
+                            <select type="" class=" rounded-pill form-control form-select col-12" id="">
+                                <option selected>INR</option>
+                                <option value="">5,000-10,000</option>
+                                <option value="">10,000-15,000</option>
+                                <option value="">15,000-20,000</option>
+                                <option value="">20,000-25,000</option>
+                                <option value="">25,000-35,000</option>
+                                <option value="">35,000+</option>
+                            </select>
+
+                          </div>
+
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  
+<section class="photo-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="bg-light col m-5 shadow contact-subdiv p-3">
+                <img src="img/home1.jpg" class="w-100 image-fluid contact-subdiv" alt="">
+                <h5 class="mt-2"><span class="spancolor">$</span>10,000</h5>
+                <h3>Aliva Priva Jardin</h3>
+                <p class="subtext">Jakarta Garden City Street,Cakung,Pulo Gadung, Jakarta Timur, DkL Jakarta</p>
+            </div>
+            <div class="bg-light col m-5 shadow contact-subdiv p-3">
+                <img src="img/home2.jpg" class="w-100 image-fluid contact-subdiv" alt="">
+                <h5 class="mt-2"><span class="spancolor">$</span>15,000</h5>
+                <h3>Asatti Garden City</h3>
+                <p class="subtext">Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Bharat</p>
+            </div>
+            <div class="bg-light col m-5 shadow contact-subdiv p-3">
+                <img src="img/home3.jpg" class="w-100 image-fluid contact-subdiv" alt="">
+                <h5 class="mt-2"><span class="spancolor">$</span>10,000</h5>
+                <h3>Citraland Puri Serang</h3>
+                <p class="subtext">Ruko Puri Residence Blok A7,Lingkar Street,Ciraces, sSerang, Banten</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="bg-light col m-5 shadow contact-subdiv p-3">
+                <img src="img/home4.jpg" class="w-100 image-fluid contact-subdiv" alt="">
+                <h5 class="mt-2"><span class="spancolor">$</span>10,000</h5>
+                <h3>Citraland Puri Serang</h3>
+                <p class="subtext">Ruko Puri Residence Blok A7,Lingkar Street,Ciraces, sSerang, Banten</p>
+            </div>
+            <div class="bg-light col m-5 shadow contact-subdiv p-3">
+                <img src="img/home5.jpg"class="w-100 image-fluid contact-subdiv" alt="">
+                <h5 class="mt-2"><span class="spancolor">$</span>10,000</h5>
+                <h3>Aliva Priva Jardin</h3>
+                <p class="subtext">Jakarta Garden City Street,Cakung,Pulo Gadung, Jakarta Timur, DkL Jakarta</p>
+            </div>
+            <div class="bg-light col m-5 shadow contact-subdiv p-3">
+                <img src="img/home6.jpg" class="w-100 image-fluid contact-subdiv" alt="">
+                <h5 class="mt-2"><span class="spancolor">$</span>15,000</h5>
+                <h3>Asatti Garden City</h3>
+                <p class="subtext">Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Bharat</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="bg-light col m-5 shadow contact-subdiv p-3">
+                <img src="img/home3.jpg" class="w-100 image-fluid contact-subdiv" alt="">
+                <h5 class="mt-2"><span class="spancolor">$</span>10,000</h5>
+                <h3>Citraland Puri Serang</h3>
+                <p class="subtext">Ruko Puri Residence Blok A7,Lingkar Street,Ciraces, sSerang, Banten</p>
+            </div>
+            <div class="bg-light col m-5 shadow contact-subdiv p-3">
+                <img src="img/home1.jpg" class="w-100 image-fluid contact-subdiv" alt="">
+                <h5 class="mt-2"><span class="spancolor">$</span>15,000</h5>
+                <h3>Asatti Garden City</h3>
+                <p class="subtext">Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Bharat</p>
+            </div>
+            <div class="bg-light col m-5 shadow contact-subdiv p-3">
+                <img src="img/home5.jpg" class="w-100 image-fluid contact-subdiv" alt="">
+                <h5 class="mt-2"><span class="spancolor">$</span>10,000</h5>
+                <h3>Aliva Priva Jardin</h3>
+                <p class="subtext">Jakarta Garden City Street,Cakung,Pulo Gadung, Jakarta Timur, DkL Jakarta</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------------------------contact us----------------->
+<section class="contact-section">
+    <div class="container">
+        <div class="d-sm-flex">
+            <div class="col-6">
+                <h5 class="spancolor mb-1">Contact Us</h5>
+                <h1>Easy to contact us<span class="spancolor">.</span></h1>
+                <p class="contact-para">Is there a problem finding your dream home?Need a guide in renting your first home? or need a consultation on residential issues? just contact us.</p>
+                <div>
+                    <div class="row mb-5">
+                        <div class="col-5 shadow p-3 contact-subdiv">
+                            <h4>Call</h4>
+                            <button class="btn header-button col">Call Now</button>
+                        </div>
+                        <div class="col-5 offset-1 shadow p-3 contact-subdiv">
+                            <h4>Chat</h4>
+                            <button class="btn header-button col">Chat Now</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-5 shadow p-3 contact-subdiv">
+                            <h4>Video Call</h4>
+                            <button class="btn header-button col">Video Call Now</button>
+                        </div>
+                        <div class="col-5 offset-1 shadow p-3 contact-subdiv">
+                            <h4>Message</h4>
+                            <button class="btn header-button col">Messege Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="./img/contact_us.jpg" class="w-100 contact-subdiv" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------------------------rent your property----------->
+
+<section class="rent-section">
+    <div class="container">
+        <div class="d-sm-flex">
+            <div class="col-5">
+                <h2>Rent your property for free on <span class="spancolor">Rentals</span></h2>
+                <p class=" text-start">Become a part of the growing Rental family. As a promise, all our listings are completely free & always will be. Now you can grow your business happily. Further more, over a million buyers visit us every month, giving you the audience that you need. Download our Makaan seller app to avail all these benefits & conveniently follow up with your clients.</p>
+                <button class="btn header-button text-dark">Details</button>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://static.makaan.com/images/homepage/new/to-let.96f68380.gif" frameborder="0" width="50">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-----------------footer----------->
+
+<footer class="text-center text-white bg-dark">
+    <div class="container p-4">
+        <section class="mb-4">
+            <a
+        class="btn btn-social-icon btn-facebook m-2"
+        href="www.facebook.com"
+        
+        ><i class="fa fa-facebook fa-lg "></i></a>
+            <a
+        class="btn btn-social-icon btn-google m-2"
+        href="#!"
+        ><i class="fa fa-google fa-lg"></i></a>
+        <a
+        class="btn btn-social-icon btn-twitter m-2"
+        href="#!"
+        ><i class="fa fa-twitter fa-lg"></i></a>
+        <a
+        class="btn btn-social-icon btn-linkedin m-2"
+        href="#!"
+        ><i class="fa fa-linkedin fa-lg"></i></a>
+        </section>
+    </div>
+    <div class="text-center text-white">
+        © 2023 Copyright:
+        <a href="index.html" class="text-white">Rentals.com</a>
+    </div>
+    
+</footer>
+
+
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+ <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+ <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

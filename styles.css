@@ -1,0 +1,43 @@
+.header-section{
+    margin-top: 71px;
+}
+.spancolor{
+    color: #15dcb4;
+}
+.header-button{
+    background: #2ee0bc;
+}
+.header-subtext{
+    color: rgb(154, 154, 154);
+}
+.header-subdiv{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.mynavbar{
+    background-color: black;
+}
+.mynavbar a{
+    color: #2ee0bc;
+}
+
+.explore-container {
+    justify-content: space-between;
+}
+
+.explore-container h2{
+    color: grey;
+}
+.explore-container img{
+    border-radius: 10%;
+}
+.contact-para{
+    font-size: 20px;
+    font-weight: 0;
+}
+.contact-subdiv{
+    border-radius: 25px;
+}
+.rental-section,.exploring,.contact-section,.rent-section{
+    margin-top: 100px;
+}

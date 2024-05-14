@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rentals</title>
+    <title>Rentals</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm  mynavbar fixed-top">
+        <a href="index.html" class="navbar-brand mr-4"><img src="./img/Rentals_logo.png" width="150px" alt=""></a>
+
+        <button class="navbar-toggler">
+            <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#mynavbar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link" >Home</a></li>
+            
+                <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Rental</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Homes</a></li>
+                        <li><a class="dropdown-item" href="#">Rooms</a></li>
+                        <li><a class="dropdown-item" href="#">Cars</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"><a href="" class="nav-link" >About Us</a></li>
+                <li class="nav-item"><a href="" class="nav-link" >Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!--------recommended and filter------------->
+<section class="bg-light header-section">
+    <div class="container">
+        <div class="d-lg-flex my-5">
+            <div class="col-lg-5">
+                <h1 class="m-3">Recommended</h1>
+                <button class="btn header-button col-3 m-1 rounded-pill">Modern</button>
+                <button class="btn header-button col-2 m-1  rounded-pill">Flat</button>
+                <button class="btn header-button col-2 m-1  rounded-pill">Villa</button>
+                <button class="btn header-button col-3 m-1  rounded-pill">Luxury</button>
+                <button class="btn header-button col-4 m-1  rounded-pill">Independent</button>
+            </div>
+            <div class="col filter-box rounded">
+                <div>
+                    <h4 class="m-3"><img src="img/filter.svg" alt="" > Filter</h4>
+                      <div class="form-group row justify-content-center">
+                        <input type="Search" placeholder="Search Property" class="form-control col-9 rounded-pill ">
+                        <button class="btn header-button col-2 ml-3">Search</button>
+                      </div>
+
+                      <div class="d-flex ml-2">
+                        <div class="form-group">
+                            <label for="" class="col-form-label ml-1">Location</label>
+                            <input type="text" class="rounded-pill  form-control col-11 mr-4" >
+                          </div>
+                        <div class="form-group">
+                            <label for="#location" class="col-form-label ml-1">Type</label>
+                            <input type="text" class="rounded-pill  form-control col-11 mr-4">
+                          </div>
+                        <div class="form-group">
+                            <label for="" class="col-form-label ml-1">Price range</label>
+                            <select type="" class=" rounded-pill form-control form-select col-12" id="">
+                                <option selected>INR</option>
+                                <option value="">5,000-10,000</option>
+                                <option value="">10,000-15,000</option>
+                                <option value="">15,000-20,000</option>
+                                <option value="">20,000-25,000</option>
+                                <option value="">25,000-35,000</option>
+                                <option value="">35,000+</option>
+                            </select>
+
+                          </div>
+
+                      </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="bg-light col m-4">
+                <img src="img/home1.jpg" class="w-100 image-fluid" alt="">
+            </div>
+            <div class="bg-light col m-4">
+                <img src="img/home2.jpg" class="w-100 image-fluid" alt="">
+            </div>
+            <div class="bg-light col m-4">
+                <img src="img/home3.jpg" class="w-100 image-fluid" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="bg-light col m-4">
+                <img src="img/home4.jpg" class="w-100 image-fluid" alt="">
+            </div>
+            <div class="bg-light col m-4">
+                <img src="img/home5.jpg"class="w-100 image-fluid" alt="">
+            </div>
+            <div class="bg-light col m-4">
+                <img src="img/home6.jpg" class="w-100 image-fluid" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="bg-light col m-4">
+                <img src="img/home3.jpg" class="w-100 image-fluid" alt="">
+            </div>
+            <div class="bg-light col m-4">
+                <img src="img/home1.jpg" class="w-100 image-fluid" alt="">
+            </div>
+            <div class="bg-light col m-4">
+                <img src="img/home5.jpg" class="w-100 image-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------footer------------->
+
+    <footer class="text-center text-white bg-dark">
+        <div class="container p-4">
+            <section class="mb-4">
+                <a
+            class="btn btn-social-icon btn-facebook m-2"
+            href="www.facebook.com"
+            
+            ><i class="fa fa-facebook fa-lg "></i></a>
+                <a
+            class="btn btn-social-icon btn-google m-2"
+            href="#!"
+            ><i class="fa fa-google fa-lg"></i></a>
+            <a
+            class="btn btn-social-icon btn-twitter m-2"
+            href="#!"
+            ><i class="fa fa-twitter fa-lg"></i></a>
+            <a
+            class="btn btn-social-icon btn-linkedin m-2"
+            href="#!"
+            ><i class="fa fa-linkedin fa-lg"></i></a>
+            </section>
+        </div>
+        <div class="text-center text-white">
+            © 2023 Copyright:
+            <a href="index.html" class="text-white">Rentals.com</a>
+        </div>
+        
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+ <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+ <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
